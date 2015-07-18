@@ -9,7 +9,12 @@ I'm David. In my past live's I've been a business owner, department director, te
 v2
 I can build anything. In several languages and platforms. I love to solve difficult problems. I have over eight years experience as a full stack developer and five years experience in advertising. In addition to coding, I've been a business owner, technical lead and client liaison for brands like UPS, Chase and Marriott Hotels.
 
-Because it's difficlut on a resume to point to one project that encapsulates all I'm capable of I built this site to demonstrates by abilities in HTML, CSS, JavaScript
+Because it's difficlut on a resume to point to one project that encapsulates all I'm capable of I built this site to with the goal of highlighting my ablities in:
+• Writing HTML, CSS, JavaScript
+• Creating Tests an validating expectations
+• Using source control
+• Best practices for deployment process
+• Linux server set up and administration
 
 About this site
 ---
