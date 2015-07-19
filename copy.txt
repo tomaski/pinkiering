@@ -1,56 +1,62 @@
 # HOME #PROJECTS #SKILLS #ANIMATION #CONTACT #BLOG
 # This is a file for brainstorming structure and content
 
-Hi,
-
+About
+---
 v1
 I'm David. In my past live's I've been a business owner, department director, tehcnical lead and client liaison. At heart, though I'm a developer with an eye for design and motion, after all I did get my degree from an art school.
 
 v2
-I can build anything. In several languages and platforms. I love to solve difficult problems. I have over eight years experience as a full stack developer and five years experience in advertising. In addition to coding, I've been a business owner, technical lead and client liaison for brands like UPS, Chase and Marriott Hotels.
+I can build anything. In several languages on varying platforms. I'm a developer with an eye for design and motion and I love to solve difficult problems. 
 
-Because it's difficlut on a resume to point to one project that encapsulates all I'm capable of I built this site to with the goal of highlighting my ablities in:
+I have over eight years experience as a full stack developer and five years experience in advertising. In addition to coding, I've been a business owner, technical lead and client liaison for brands like UPS, Chase and Marriott Hotels.
+
+Why this site?
+---
+It's difficlut, armed with only a resume, to point to one project that encapsulates the fullrange of my capabilities so I built this site. The goal is to highlight my ablities in:
 • Writing HTML, CSS, JavaScript
 • Creating Tests an validating expectations
 • Using source control
-• Best practices for deployment process
+• Best practices for the deployment process
 • Linux server set up and administration
-
-About this site
----
-It's difficult, armed with with only a resume, to point to one project that encapsulates all I'm capable of. So I built this site to demonstrate that. Below you'll see projects I've worked on, but just as important is the site itself.
-
-• An eye for design & delighful user interactions
-• HTML, CSS (preproccesing with Stylus)
-• Javascript
-• Server Set up and deployment
 
 
 
 I love languages.
 I've been developing for over 15 years in a wide range of languages:
-• ActionScript 
 • JavaScript
 • PHP
 • Python
 • HTML
 • CSS
-
-About
----
-Hi, I'm David. In my past live's I've been a business owner, department director, technical lead and client liaison. At heart, I'm a developer with an eye for design and motion, after all I did get my degree from an art school :) 
-
-It's difficlut with a resume to show what you're about
  
 
 Projects
 ---
 Below is a small list of projects I've worked on recently while at Smith & Robot
 http://www.pulsepointgroup.com/
-http://npoints.com/
-http://k12lab.com/
-http://www.healthtronics.com/
+Roles: Technical Lead, Developer, AWS server setup
+Languages: PHP, JavaScript, HTML, CSS
+
+Tournament of Tweets
+Roles: Developer
+Languages: JavaScript, HTML, CSS
+
+http://npoints.com/ 
+Technical Lead, Developer, AWS server setup
+Languages: PHP, JavaScript, HTML, CSS
+
+http://k12lab.com/ 
+Technical Lead, Developer, AWS server setup
+Languages: PHP, JavaScript, HTML, CSS
+
+http://www.healthtronics.com/ 
+Roles: Technical Lead, Developer, AWS server setup
+Languages: PHP, JavaScript, HTML, CSS
+
 https://snap-ci.com/
+Roles: Technical Lead, Developer
+Languages: PHP, JavaScript, HTML, CSS
 
 Skills
 ---
@@ -60,7 +66,6 @@ Skills
   • Python
   • HTML
   • CSS
-  • ActionScript
 
 Javascript Frameworks:
  • ReactJS
