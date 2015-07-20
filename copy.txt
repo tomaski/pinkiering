@@ -1,6 +1,10 @@
 # HOME #PROJECTS #SKILLS #ANIMATION #CONTACT #BLOG
 # This is a file for brainstorming structure and content
 
+Intro
+---
+Entrepreneur. Mentor. Hacker. Polyglot. Animator.
+
 About
 ---
 v1
@@ -10,6 +14,7 @@ v2
 I can build anything. In several languages on varying platforms. I'm a developer with an eye for design and motion and I love to solve difficult problems. 
 
 I have over eight years experience as a full stack developer and five years experience in advertising. In addition to coding, I've been a business owner, technical lead and client liaison for brands like UPS, Chase and Marriott Hotels.
+
 
 Why this site?
 ---
@@ -34,6 +39,7 @@ I've been developing for over 15 years in a wide range of languages:
 Projects
 ---
 Below is a small list of projects I've worked on recently while at Smith & Robot
+
 http://www.pulsepointgroup.com/
 Roles: Technical Lead, Developer, AWS server setup
 Languages: PHP, JavaScript, HTML, CSS
@@ -41,6 +47,11 @@ Languages: PHP, JavaScript, HTML, CSS
 Tournament of Tweets
 Roles: Developer
 Languages: JavaScript, HTML, CSS
+
+SSL Switch Status
+https://tw-ssl-status.herokuapp.com/
+Roles: Lead Developer
+Languages: JavaScript (ReactJS), HTML, CSS (Stylus)
 
 http://npoints.com/ 
 Technical Lead, Developer, AWS server setup
