@@ -3,17 +3,11 @@
 
 Intro
 ---
-Entrepreneur. Mentor. Hacker. Polyglot. Animator.
+Hacker. Mentor. Polyglot.
 
 About
 ---
-v1
-I'm David. In my past live's I've been a business owner, department director, tehcnical lead and client liaison. At heart, though I'm a developer with an eye for design and motion, after all I did get my degree from an art school.
-
-v2
-I can build anything. In several languages on varying platforms. I'm a developer with an eye for design and motion and I love to solve difficult problems. 
-
-I have over eight years experience as a full stack developer and five years experience in advertising. In addition to coding, I've been a business owner, technical lead and client liaison for brands like UPS, Chase and Marriott Hotels.
+I can build anything. I'm a developer with an eye for design and motion and I love to solve difficult problems. I have over eight years experience as a full stack developer and five years experience in advertising. In addition to A CODER, I've been a business owner, technical lead, and client liaison for brands like UPS, Chase, and Marriott Hotels.
 
 
 Why this site?
@@ -24,21 +18,14 @@ It's difficlut, armed with only a resume, to point to one project that encapsula
 • Using source control
 • Best practices for the deployment process
 • Linux server set up and administration
-
-
-
-I love languages.
-I've been developing for over 15 years in a wide range of languages:
-• JavaScript
-• PHP
-• Python
-• HTML
-• CSS
  
 
 Projects
 ---
-Below is a small list of projects I've worked on recently while at Smith & Robot
+
+http://www.smithandrobot.com/
+Roles: Technical Lead, Developer, AWS server setup
+Languages: PHP, JavaScript, HTML, CSS
 
 http://www.pulsepointgroup.com/
 Roles: Technical Lead, Developer, AWS server setup
@@ -48,48 +35,53 @@ Tournament of Tweets
 Roles: Developer
 Languages: JavaScript, HTML, CSS
 
-SSL Switch Status
-https://tw-ssl-status.herokuapp.com/
-Roles: Lead Developer
-Languages: JavaScript (ReactJS), HTML, CSS (Stylus)
+http://www.healthtronics.com/ 
+Roles: Technical Lead, Developer, AWS server setup
+Languages: PHP, JavaScript, HTML, CSS
+
+http://www.thoughtworks.com/ 
+Roles: Technical Lead, Developer, AWS server setup
+Languages: PHP, JavaScript, HTML, CSS
 
 http://npoints.com/ 
 Technical Lead, Developer, AWS server setup
 Languages: PHP, JavaScript, HTML, CSS
 
-http://k12lab.com/ 
-Technical Lead, Developer, AWS server setup
-Languages: PHP, JavaScript, HTML, CSS
+SSL Switch Status
+https://tw-ssl-status.herokuapp.com/
+Roles: Lead Developer
+Languages: JavaScript (ReactJS), HTML, CSS (Stylus)
 
-http://www.healthtronics.com/ 
+https://www.labviewmakerhub.com/
 Roles: Technical Lead, Developer, AWS server setup
 Languages: PHP, JavaScript, HTML, CSS
 
-https://snap-ci.com/
-Roles: Technical Lead, Developer
+Oscars 
+Roles: Technical Lead, Developer, AWS server setup
 Languages: PHP, JavaScript, HTML, CSS
 
 Skills
 ---
-• Languages:
-  • JavaScript
-  • PHP
-  • Python
-  • HTML
-  • CSS
+I love languages.
+• JavaScript
+• PHP
+• Python
+• HTML
+• CSS
 
-Javascript Frameworks:
+Frameworks:
  • ReactJS
  • Backbone
 
-JavaScript Libraries:
+Libraries:
  • jQuery
  • loadsh/underscore
+ • Mocha
+ • qUnit
+ • Tape
 
-Testing Frameworks:
-• Mocha
-• qUnit
-
-Server Administration:
+Server:
+• Linux
 • Amazon Web Services
 • Rackspace
+• Digital Ocean

@@ -1,0 +1,43 @@
+#languages
+  // override grid settings
+  .grid
+    .grid-cell-2
+      width: calc(20% - 20px)
+  i.heart
+    background-image: url("/imgs/heart.gif")
+    background-size: 25px
+    display: inline-block
+    vertical-align: baseline
+    width: 25px
+    height: 23px
+    
+  .language-icon
+    width: 100%
+    max-width: 50px
+    display: inline
+    vertical-align: middle
+    padding: 25px 0 0 0
+    
+  .language
+    text-align: center
+    cursor: pointer
+    border: 1px solid rgba(68, 180, 152, 0)
+    box-sizing: border-box
+    border-radius: 5px
+    transition: border .2s ease-out
+    
+    &:hover
+      border: 1px solid rgba(68, 180, 152, 1)
+      
+    &:hover .language-name
+      transform: translate(0,0)
+      opacity: 1
+      
+    .language-name
+      padding: 4px
+      transform: translate(0, 20px)
+      display: inline-block
+      transition: transform .2s ease-out, opacity .3s ease-out
+      opacity: 0
+      color: rgba(68, 180, 152, 1)
+  

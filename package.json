@@ -1,11 +1,26 @@
 {
-  "name": "Pinkiering",
+  "name": "PinkieRing",
   "version": "3.0.0",
-  "description": "",
+  "description": "Portfolio Site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "mkdir -p ./dev/css && stylus ./src/stylus/main.styl -o ./dev/css/main.css",
+    "html": "mkdir -p ./dev && cat ./src/index.html | node ./transformer.js > ./dev/index.html",
+    "dev": "npm run serve & npm run css & npm run html & npm run livereload",
+    "livereload": "livereload ./dev --port 9091",
+    "serve": "http-server ./dev -p 3030",
+    "imgs": "mkdir -p ./dev/imgs && cp ./src/imgs/* ./dev/imgs/",
+    "clean": "rm -rf ./dev"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "David Ford",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^11.0.0",
+    "express": "^4.13.1",
+    "http-server": "^0.8.0",
+    "livereload": "^0.3.7",
+    "stylus": "^0.52.0",
+    "uglify": "^0.1.5"
+  }
 }
