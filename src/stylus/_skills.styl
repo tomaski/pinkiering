@@ -12,3 +12,20 @@
     max-width: 25px
     display: block
     margin: 0 auto 20px
+
+@media screen and (max-width: 640px)
+  #skills
+    
+    .grid
+      margin: 0
+      
+      [class*="grid-cell-"]
+        margin-left: 0
+        margin-right: 0
+        
+      .grid-cell-3
+        width: 50%
+        &:nth-child(3)
+          clear:both        
+        &:nth-child(n+3)
+          margin-top: 40px

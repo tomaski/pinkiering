@@ -10,7 +10,11 @@
     
     h3
       margin-bottom: 10px
-      
+    
+    .github-launch img
+      width: 20px;
+      vertical-align: top;
+    
     .project-details
       position: relative
       display: block
@@ -27,35 +31,62 @@
       opacity: 1
       
     .project-description
-        font-style: italic
-        display: block
-        box-sizing: border-box
-        padding: 20px
+      font-style: italic
+      display: block
+      box-sizing: border-box
+      padding: 20px
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      text-align: center
+      background-color: #44b498
+      border-radius: 2px
+      opacity: 0
+      color: #fff
+      font-size: .8em
+      height: 100%
+      transform: scale(.8)
+      transition: transform .2s ease-out, opacity .2s
+      
+      .project-launch
+        width: 15px
         position: absolute
-        top: 0
-        left: 0
-        width: 100%
-        text-align: center
-        background-color: #44b498
-        border-radius: 2px
-        opacity: 0
-        color: #fff
-        font-size: .8em
-        height: 100%
-        transform: scale(.8)
-        transition: transform .2s ease-out, opacity .2s
-        
-        .project-launch
-          width: 15px
-          position: absolute
-          top: 10px
-          right: 10px
+        top: 10px
+        right: 10px
 
-        h4
-          margin: 0 0 5px
-        h4:nth-child(n+2)
-          margin-top: 10px
+      h4
+        margin: 0 0 5px
+      h4:nth-child(n+2)
+        margin-top: 10px
           
       
     &:nth-child(n+4)
       margin-top: 20px
+      
+
+@media screen and (max-width: 640px)
+  #projects
+      
+    .project
+
+      &:nth-child(n+2)
+        margin-top: 40px
+        
+      .project-details:hover 
+        .project-description
+          display: none
+      
+    .grid
+      margin: 0
+      
+      [class*="grid-cell-"]
+        margin-left: 0
+        margin-right: 0
+        
+      .grid-cell-4
+        float: none
+        display: block
+        width: 100%
+    
+  
