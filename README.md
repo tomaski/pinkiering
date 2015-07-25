@@ -5,7 +5,7 @@ David Ford's portfoio site.
 
 ## Bug tracker
 
-Something Wrong? Have a suggestion? Please create an issue here on GitHub at <https://github.com/issues>.
+Something Wrong? Have a suggestion? Please create an issue here on GitHub at <https://github.com/grommett/pinkiering/issues>.
 
 ## Development
 
