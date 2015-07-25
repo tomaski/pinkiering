@@ -15,7 +15,8 @@
     "build:html": "mkdir -p ./build && html-minifier --collapse-whitespace --remove-comments --lint -o ./build/index.html ./src/index.html",
     "build:css": "mkdir -p ./build/css && stylus -c ./src/stylus/main.styl -o ./build/css/main.css",
     "build:imgs": "mkdir -p ./build/imgs && cp ./src/imgs/* ./build/imgs/",
-    "build": "npm run build:html && npm run build:css && build:imgs"
+    "build": "npm run build:html && npm run build:css && build:imgs",
+    "deploy": "sh deploy.sh"
   },
   "author": "David Ford",
   "license": "ISC",
