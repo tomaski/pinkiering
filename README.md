@@ -17,5 +17,4 @@ $ npm run dev
 
 ## Deployment
 ```shell
-$ jekyll serve --watch
 ```
