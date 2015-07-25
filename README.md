@@ -1,11 +1,6 @@
 # PinkieRing
 
-David Ford's portfoio site.
-
-
-## Bug tracker
-
-Something Wrong? Have a suggestion? Please create an issue here on GitHub at <https://github.com/grommett/pinkiering/issues>.
+Portfoio site.
 
 ## Development
 
@@ -17,4 +12,5 @@ $ npm run dev
 
 ## Deployment
 ```shell
+$ npm deploy
 ```
