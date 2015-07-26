@@ -61,7 +61,7 @@ I can build anything. I'm a developer with an eye for design and motion and I lo
 
 ## Skills
 ### I love languages.
- - JavaScript
+- JavaScript
 - PHP
 - Python
 - HTML
