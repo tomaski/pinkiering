@@ -1,6 +1,6 @@
 # PinkieRing
 
-Portfoio site.  
+Portfolio site.  
 http://pinkiering.com
 
 ### Install
