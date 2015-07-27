@@ -2,14 +2,20 @@
 
 Portfoio site.
 
-## Development
+### Install
+```shell
+$ npm install
+```
 
-To build the files, just run:
-
+### Development
+To build files and serve them (files served from ```./dev```):
 ```shell
 $ npm run dev
 ```
-
+## Test
+```shell
+$ npm test
+```
 ## Deployment
 ```shell
 $ npm deploy
