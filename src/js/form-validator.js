@@ -1,4 +1,5 @@
 var formState = require('./form-state');
+var serializeForm = require('./form-serializer');
 
 /*
  * Resets styles on the form if they were previously invalid
@@ -11,6 +12,11 @@ function formReset(form) {
 }
 
 module.exports = {
+  /*
+   * Creates a form validator
+   * @params {DOM form} form
+   * @returns {boolean}
+  */
   create: function(form) {
     if(form.onsubmit === undefined ) return;
     /*
@@ -21,8 +27,9 @@ module.exports = {
     form.onsubmit = function(e) {
       formReset(form);
       var formElement;
-      var validation = formState.validate(form);
-      if(validation.valid() === true) return true
+      var serializedForm = serializeForm(form);
+      var validation = formState.validate(serializedForm);
+      if(validation.valid() === true) return true;
 
       e.preventDefault();
       validation.errors.forEach(function(ele) {

@@ -4,7 +4,7 @@
   "description": "Portfolio Site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "tape src/tests/**/*.js",
     "css": "mkdir -p ./dev/css && stylus ./src/stylus/main.styl -o ./dev/css/main.css",
     "html": "mkdir -p ./dev && cat ./src/index.html | node ./lib/livereload-injector.js > ./dev/index.html",
     "dev": "npm run imgs && npm run css && npm run html && npm run livereload & npm run serve",
@@ -30,6 +30,7 @@
     "http-server": "^0.8.0",
     "livereload": "^0.3.7",
     "stylus": "^0.52.0",
+    "tape": "^4.0.1",
     "uglify": "^0.1.5"
   },
   "dependencies": {

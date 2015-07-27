@@ -1,4 +1,3 @@
-var formSerializer = require('./form-serializer');
 var isEmail = require('isEmail');
 
 /*
@@ -30,6 +29,8 @@ function validateField(obj) {
     case 'email':
       return validEmail(obj.value);
     case 'text':
+    case 'search':
+    case 'tel':
       return validText(obj.value);
     default: return true;
   }
@@ -56,12 +57,11 @@ var formState = {
 module.exports = {
   /*
    * Validates a form and returns the form state
-   * @params {object} html from object
+   * @params {object} serializedForm - a serialized form
    * @returns {object} object containing form element's relevant attributes as key value pairs
   */
-  validate: function (form) {
+  validate: function (serializedForm) {
     var formReport = formState.create();
-    var serializedForm = formSerializer(form);
     var validField;
 
     // only worry about fields that are set as 'required'

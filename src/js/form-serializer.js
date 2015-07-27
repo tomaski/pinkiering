@@ -1,6 +1,5 @@
 /*
- * Simple form serializer - only text controls at the moment
- * TODO add phone validator
+ * Simple form serializer - only text inputs
  * @params {object} html from object
  * @returns {object} object containing form element's 'name' as key and 'value' as value
 */
@@ -13,14 +12,12 @@ function serializeForm(form) {
   children.forEach(function(child) {
     var tag = child.tagName.toLowerCase();
     name = child.getAttribute('name');
-    if(name) {
-      elementObj = getAttributes(child);
-      elementObj['value'] = child.value;
-      elementObj['tagName'] = tag;
-      // force textarea type to be text so we can validate as text input
-      if(tag === 'textarea') elementObj['type'] = 'text';
-      formArr.push(elementObj);
-    }
+    elementObj = getAttributes(child);
+    elementObj['value'] = child.value || '';
+    elementObj['tagName'] = tag;
+    // force textarea type to be text so we can validate as text input
+    if(tag === 'textarea') elementObj['type'] = 'text';
+    formArr.push(elementObj);
   });
   return formArr;
 }
@@ -39,8 +36,11 @@ function getAttributes(formElement) {
     }else{
       attributes[attribute.name] = attribute.value
     }
-  })
-  if(!attributes.hasOwnProperty('required')) attributes['required'] = false;
+  });
+
+  if(!attributes.hasOwnProperty('required')) {
+    attributes['required'] = false;
+  }
   return attributes;
 }
 
@@ -50,7 +50,7 @@ function getAttributes(formElement) {
  * @returns {boolean}
 */
 function normalizeRequired(val) {
-  if(val==='false') return false
+  if(val==='false' || val === '') return false
   return true
 }
 
