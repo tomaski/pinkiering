@@ -4,7 +4,7 @@
   "description": "Portfolio Site",
   "main": "index.js",
   "scripts": {
-    "test": "tape src/tests/**/*.js",
+    "test": "tape ./tests/**/*.js",
     "css": "mkdir -p ./dev/css && stylus ./src/stylus/main.styl -o ./dev/css/main.css",
     "html": "mkdir -p ./dev && cat ./src/index.html | node ./lib/livereload-injector.js > ./dev/index.html",
     "dev": "npm run imgs && npm run css && npm run html && npm run livereload & npm run serve",
