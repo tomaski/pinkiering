@@ -1,9 +1,7 @@
 #!/bin/sh
 
-# 
-# Some var set up
-#
-
+# Run tests befor we even start
+npm test
 
 builddir=./build/*
 

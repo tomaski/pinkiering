@@ -27,6 +27,7 @@
     
     .project-details:hover .project-description
       display: block
+      -webkit-transform: scale(1)
       transform: scale(1)
       opacity: .95
       
@@ -47,8 +48,9 @@
       font-size: .8em
       height: 100%
       transform: scale(.95)
+      -webkit-transform: scale(.95)
       transition: transform .2s ease-out, opacity .2s
-      
+      -webkit-transition: -webkit-transform .2s ease-out, opacity .2s
       .project-launch
         width: 15px
         position: absolute

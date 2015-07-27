@@ -50,7 +50,7 @@ function getAttributes(formElement) {
  * @returns {boolean}
 */
 function normalizeRequired(val) {
-  if(val==='false' || val === '') return false
+  if(val==='false') return false
   return true
 }
 

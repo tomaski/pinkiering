@@ -1,4 +1,4 @@
-var serializeForm = require('../js/form-serializer');
+var serializeForm = require('../src/js/form-serializer');
 var formStub = require('./stub-form');
 var formFieldStub = require('./stub-form-field');
 var test = require('tape');

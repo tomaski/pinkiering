@@ -27,7 +27,6 @@ function merge(from, to) {
 function field() {
   return {
     name: '',
-    required: '',
     tagName: 'INPUT',
     type: 'text',
     value: '',

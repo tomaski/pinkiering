@@ -1,4 +1,4 @@
-var formState = require('../js/form-state');
+var formState = require('../src/js/form-state');
 var test = require('tape');
 
 

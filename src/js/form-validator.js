@@ -28,11 +28,12 @@ module.exports = {
       formReset(form);
       var formElement;
       var serializedForm = serializeForm(form);
-      var validation = formState.validate(serializedForm);
-      if(validation.valid() === true) return true;
+      var state = formState.validate(serializedForm);
+
+      if(state.valid() === true) return true;
 
       e.preventDefault();
-      validation.errors.forEach(function(ele) {
+      state.errors.forEach(function(ele) {
         formElement = document.querySelector('[name="'+ele.name+'"]');
         formElement.classList.add('invalid');
       })
