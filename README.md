@@ -1,6 +1,7 @@
 # PinkieRing
 
-Portfoio site.
+Portfoio site.  
+http://pinkiering.com
 
 ### Install
 ```shell
